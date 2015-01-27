@@ -5,13 +5,13 @@
         Private ReadOnly _externalModeratorEmailFactory As Service.CentreNetwork.Email.ExternalModerator.IFactory
 
         '<Microsoft.Practices.Unity.InjectionConstructor()>
-        'Public Sub New(externalModeratorEmail As Service.CentreNetwork.Email.ExternalModerator.ExternalModerator)
-        '    _externalModeratorEmail = externalModeratorEmail
+        'Public Sub New(externalmoderatoremail As Service.CentreNetwork.Email.ExternalModerator.ExternalModerator)
+        '    _externalmoderatoremail = externalmoderatoremail
         'End Sub
 
         <Microsoft.Practices.Unity.InjectionConstructor()>
-        Public Sub New(externalModeratorEmail As Service.CentreNetwork.Email.ExternalModerator.IFactory)
-            _externalModeratorEmailFactory = externalModeratorEmail
+        Public Sub New(externalModeratorEmailFactory As Service.CentreNetwork.Email.ExternalModerator.IFactory)
+            _externalModeratorEmailFactory = externalModeratorEmailFactory
         End Sub
 
         

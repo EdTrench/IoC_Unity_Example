@@ -2,7 +2,6 @@
     Public MustInherit Class ExternalModerator
         Inherits Email
 
-        <Microsoft.Practices.Unity.InjectionConstructor()>
         Sub New(resourceManager As Helper.Resources.IResourceManager,
                 output As Helper.Email.Output.Output)
             MyBase.New(resourceManager, output)

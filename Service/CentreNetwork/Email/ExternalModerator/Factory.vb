@@ -10,11 +10,11 @@
 
             Select Case centreNetwork.Network.AsEnum
                 Case Helper.NetworkEnum.CoPEandAoPE
-
+                    'Return New Service.CentreNetwork.Email.ExternalModerator.CopeAope
                 Case Helper.NetworkEnum.PersonalDevelopmentProgrammes
-
+                    'Return New Service.CentreNetwork.Email.ExternalModerator.LifeskillsChallenge
                 Case Helper.NetworkEnum.LifeskillsChallenge
-
+                    'Return New Service.CentreNetwork.Email.ExternalModerator.LifeskillsChallenge
             End Select
             Throw New NotImplementedException
         End Function

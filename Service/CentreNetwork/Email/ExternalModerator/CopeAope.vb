@@ -1,7 +1,8 @@
 ﻿Namespace Service.CentreNetwork.Email.ExternalModerator
     Public Class CopeAope
         Inherits ExternalModerator
-        
+
+        <Microsoft.Practices.Unity.InjectionConstructor()>
         Sub New(resourceManager As Helper.Resources.IResourceManager,
                 output As Helper.Email.Output.Output)
             MyBase.New(resourceManager, output)
