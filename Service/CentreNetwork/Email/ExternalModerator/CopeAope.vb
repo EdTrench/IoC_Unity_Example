@@ -7,5 +7,9 @@
             MyBase.New(resourceManager, output)
         End Sub
 
+        Protected Overrides Function GetSubject() As String
+            Return "Specific CoPE and AoPE subject"
+        End Function
+
     End Class
 End Namespace
