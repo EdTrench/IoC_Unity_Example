@@ -2,12 +2,18 @@
     Public Class CentreNetworkEmail
 
         Private _centreNetworkEmailView As View.ICentreNetworkEmailForm
-        Private ReadOnly _externalModeratorEmail As Service.CentreNetwork.Email.ExternalModerator.ExternalModerator
+        Private ReadOnly _externalModeratorEmailFactory As Service.CentreNetwork.Email.ExternalModerator.IFactory
+
+        '<Microsoft.Practices.Unity.InjectionConstructor()>
+        'Public Sub New(externalModeratorEmail As Service.CentreNetwork.Email.ExternalModerator.ExternalModerator)
+        '    _externalModeratorEmail = externalModeratorEmail
+        'End Sub
 
         <Microsoft.Practices.Unity.InjectionConstructor()>
-        Public Sub New(externalModeratorEmail As Service.CentreNetwork.Email.ExternalModerator.ExternalModerator)
-            _externalModeratorEmail = externalModeratorEmail
+        Public Sub New(externalModeratorEmail As Service.CentreNetwork.Email.ExternalModerator.IFactory)
+            _externalModeratorEmailFactory = externalModeratorEmail
         End Sub
+
         
         Public Sub SetView(centreNetworkEmailView As View.ICentreNetworkEmailForm)
             _centreNetworkEmailView = centreNetworkEmailView
@@ -18,9 +24,9 @@
         Public Sub CreateEmail()
 
             Dim centreNetwork = New Model.Centre.CentreNetworkEntity With {.Network = _centreNetworkEmailView.Network}
-
-            _externalModeratorEmail.CentreNetwork = centreNetwork
-            _externalModeratorEmail.Create()
+            Dim externalModeratorEmail = _externalModeratorEmailFactory.Create(centreNetwork)
+            externalModeratorEmail.CentreNetwork = centreNetwork
+            externalModeratorEmail.Create()
         End Sub
 
         Private Sub PopulateNetworks()

@@ -4,14 +4,10 @@
         Protected _toAddress As String
         Protected _subject As String
         Protected _body As String
-        Protected _action As ActionEnum
+        'Protected _action As ActionEnum
         Protected _ccAddress As String
         Protected _sendAs As String
         Protected _bcAddress As String
-
-        Public Sub New(action As ActionEnum)
-            _action = action
-        End Sub
 
         Public WriteOnly Property ToAddress As String
             Set(value As String)
