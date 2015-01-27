@@ -1,0 +1,24 @@
+\\asdanfs\users$\edtrenchard\visual studio 2012\Projects\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.EmailContent.resources
+\\asdanfs\users$\edtrenchard\visual studio 2012\Projects\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.Resources.resources
+\\asdanfs\users$\edtrenchard\visual studio 2012\Projects\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.vbproj.GenerateResource.Cache
+\\asdanfs\users$\edtrenchard\visual studio 2012\Projects\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.pdb
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\IoC_Unity_Example.exe.config
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\IoC_Unity_Example.exe
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\IoC_Unity_Example.pdb
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\IoC_Unity_Example.xml
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Microsoft.Practices.Unity.dll
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Rhino.Mocks.dll
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Microsoft.Practices.Unity.xml
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\bin\Debug\Rhino.Mocks.xml
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.EmailContent.resources
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.Resources.resources
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.View.CentreNetworkEmailForm.resources
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.vbproj.GenerateResource.Cache
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.exe
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.xml
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.pdb
+D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.vbprojResolveAssemblyReference.cache
