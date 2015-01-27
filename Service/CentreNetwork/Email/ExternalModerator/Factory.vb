@@ -1,18 +1,22 @@
-﻿'Namespace Service.CentreNetwork.Email.ExternalModerator
-'    Public NotInheritable Class Factory
+﻿Namespace Service.CentreNetwork.Email.ExternalModerator
+    Public NotInheritable Class Factory
 
-'        Public Shared Function Create(centreNetwork As Model.Centre.CentreNetworkEntity)
+        'How can i get Unity to do this for me?
+        'The CreateContainerAndRegisterTypes() in App.vb
+        'registers the 3 concrete classes
 
-'            Select Case centreNetwork.Network.AsEnum
-'                Case Helper.NetworkEnum.CoPEandAoPE
+        Public Shared Function Create(centreNetwork As Model.Centre.CentreNetworkEntity)
 
-'                Case Helper.NetworkEnum.PersonalDevelopmentProgrammes
+            Select Case centreNetwork.Network.AsEnum
+                Case Helper.NetworkEnum.CoPEandAoPE
 
-'                Case Helper.NetworkEnum.LifeskillsChallenge
+                Case Helper.NetworkEnum.PersonalDevelopmentProgrammes
 
-'            End Select
-'            Throw New NotImplementedException
-'        End Function
+                Case Helper.NetworkEnum.LifeskillsChallenge
 
-'    End Class
-'End Namespace
+            End Select
+            Throw New NotImplementedException
+        End Function
+
+    End Class
+End Namespace
