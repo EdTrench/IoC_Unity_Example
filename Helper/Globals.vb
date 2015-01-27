@@ -28,3 +28,13 @@
         <System.ComponentModel.Description("Lifeskills Challenge")> LifeskillsChallenge = 26
     End Enum
 End Namespace
+
+Namespace Helper.Email
+    Public Enum ActionEnum
+        Send
+        Save
+        Show
+        Ignore
+    End Enum
+End Namespace
+

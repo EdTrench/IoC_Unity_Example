@@ -25,7 +25,6 @@
             End If
             _output.Body = String.Format(_resourceManager.GetString(Me.GetType().Name))
             _output.Subject = GetSubject()
-            _output.Action = Helper.Email.Output.Output.ActionEnum.Show
             _output.ToAddress = "test@test.com"
             _output.Create()
         End Sub

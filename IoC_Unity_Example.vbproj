@@ -136,6 +136,7 @@
     <Compile Include="Service\CentreNetwork\Email\ExternalModerator\CopeAope.vb" />
     <Compile Include="Service\CentreNetwork\Email\ExternalModerator\ExternalModerator.vb" />
     <Compile Include="Service\CentreNetwork\Email\ExternalModerator\Factory.vb" />
+    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\IFactory.vb" />
     <Compile Include="Service\CentreNetwork\Email\ExternalModerator\LifeskillsChallenge.vb" />
     <Compile Include="Service\CentreNetwork\Email\ExternalModerator\PersonalDevelopmentProgrammes.vb" />
     <Compile Include="View\CentreNetworkEmailForm.Designer.vb">
