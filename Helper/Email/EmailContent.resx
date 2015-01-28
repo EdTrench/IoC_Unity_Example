@@ -117,13 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CopeAope" xml:space="preserve">
-    <value>The body of 'External Moderator Cope and Aope'</value>
+  <data name="OnlyWhenITellYou" xml:space="preserve">
+    <value>The body of 'External Moderator Only When I Tell You'</value>
   </data>
-  <data name="LifeskillsChallenge" xml:space="preserve">
-    <value>The body of 'External Moderator Lifeskills Challenge'</value>
+  <data name="OnRequest" xml:space="preserve">
+    <value>The body of 'External Moderator On Request'</value>
   </data>
-  <data name="PersonalDevelopmentProgrammes" xml:space="preserve">
-    <value>The body of 'External Moderator Personal Development Programmes'</value>
+  <data name="WhenYouFancyIt" xml:space="preserve">
+    <value>The body of 'External Moderator When You Fancy It'</value>
   </data>
 </root>

@@ -15,17 +15,17 @@ IoC_Unity_Example
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:IoC_Unity_Example.My.Resources.EmailContent.CopeAope">
+</member><member name="P:IoC_Unity_Example.My.Resources.EmailContent.OnlyWhenITellYou">
 	<summary>
-  Looks up a localized string similar to The body of 'External Moderator Cope and Aope'.
+  Looks up a localized string similar to The body of 'External Moderator Only When I Tell You'.
 </summary>
-</member><member name="P:IoC_Unity_Example.My.Resources.EmailContent.LifeskillsChallenge">
+</member><member name="P:IoC_Unity_Example.My.Resources.EmailContent.OnRequest">
 	<summary>
-  Looks up a localized string similar to The body of 'External Moderator Lifeskills Challenge'.
+  Looks up a localized string similar to The body of 'External Moderator On Request'.
 </summary>
-</member><member name="P:IoC_Unity_Example.My.Resources.EmailContent.PersonalDevelopmentProgrammes">
+</member><member name="P:IoC_Unity_Example.My.Resources.EmailContent.WhenYouFancyIt">
 	<summary>
-  Looks up a localized string similar to The body of 'External Moderator Personal Development Programmes'.
+  Looks up a localized string similar to The body of 'External Moderator When You Fancy It'.
 </summary>
 </member><member name="T:IoC_Unity_Example.My.Resources.EmailContent">
 	<summary>

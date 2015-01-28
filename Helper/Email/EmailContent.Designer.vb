@@ -65,29 +65,29 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to The body of &apos;External Moderator Cope and Aope&apos;.
+        '''  Looks up a localized string similar to The body of &apos;External Moderator Only When I Tell You&apos;.
         '''</summary>
-        Friend Shared ReadOnly Property CopeAope() As String
+        Friend Shared ReadOnly Property OnlyWhenITellYou() As String
             Get
-                Return ResourceManager.GetString("CopeAope", resourceCulture)
+                Return ResourceManager.GetString("OnlyWhenITellYou", resourceCulture)
             End Get
         End Property
 
         '''<summary>
-        '''  Looks up a localized string similar to The body of &apos;External Moderator Lifeskills Challenge&apos;.
+        '''  Looks up a localized string similar to The body of &apos;External Moderator On Request&apos;.
         '''</summary>
-        Friend Shared ReadOnly Property LifeskillsChallenge() As String
+        Friend Shared ReadOnly Property OnRequest() As String
             Get
-                Return ResourceManager.GetString("LifeskillsChallenge", resourceCulture)
+                Return ResourceManager.GetString("OnRequest", resourceCulture)
             End Get
         End Property
 
         '''<summary>
-        '''  Looks up a localized string similar to The body of &apos;External Moderator Personal Development Programmes&apos;.
+        '''  Looks up a localized string similar to The body of &apos;External Moderator When You Fancy It&apos;.
         '''</summary>
-        Friend Shared ReadOnly Property PersonalDevelopmentProgrammes() As String
+        Friend Shared ReadOnly Property WhenYouFancyIt() As String
             Get
-                Return ResourceManager.GetString("PersonalDevelopmentProgrammes", resourceCulture)
+                Return ResourceManager.GetString("WhenYouFancyIt", resourceCulture)
             End Get
         End Property
     End Class

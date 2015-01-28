@@ -21,7 +21,6 @@ D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.vbproj.Ge
 D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.exe
 D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.xml
 D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.pdb
-D:\wip\IoC_Unity_Example\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.vbprojResolveAssemblyReference.cache
 C:\Projects\IoC_Unity_Example\bin\Debug\IoC_Unity_Example.exe.config
 C:\Projects\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.exe
 C:\Projects\IoC_Unity_Example\obj\Debug\IoC_Unity_Example.xml

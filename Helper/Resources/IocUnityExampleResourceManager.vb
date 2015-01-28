@@ -3,7 +3,7 @@
         Inherits System.Resources.ResourceManager
         Implements IResourceManager
 
-        <Microsoft.Practices.Unity.InjectionConstructor()>
+        '<Microsoft.Practices.Unity.InjectionConstructor()>
         Public Sub New()
             MyBase.New("IoC_Unity_Example.EmailContent",
                        Reflection.Assembly.GetExecutingAssembly())

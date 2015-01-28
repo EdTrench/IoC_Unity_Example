@@ -133,12 +133,10 @@
     </Compile>
     <Compile Include="Presenter\CentreNetworkEmail.vb" />
     <Compile Include="Service\CentreNetwork\Email\Email.vb" />
-    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\CopeAope.vb" />
+    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\WhenYouFancyIt.vb" />
     <Compile Include="Service\CentreNetwork\Email\ExternalModerator\ExternalModerator.vb" />
-    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\Factory.vb" />
-    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\IFactory.vb" />
-    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\LifeskillsChallenge.vb" />
-    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\PersonalDevelopmentProgrammes.vb" />
+    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\OnRequest.vb" />
+    <Compile Include="Service\CentreNetwork\Email\ExternalModerator\OnlyWhenITellYou.vb" />
     <Compile Include="View\CentreNetworkEmailForm.Designer.vb">
       <DependentUpon>CentreNetworkEmailForm.vb</DependentUpon>
     </Compile>

@@ -26,13 +26,14 @@
         Me.butCreateEmail = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
             Me.cboNetwork = New System.Windows.Forms.ComboBox()
+            Me.lblDisplay = New System.Windows.Forms.Label()
             Me.SuspendLayout()
             '
             'butCreateEmail
             '
-            Me.butCreateEmail.Location = New System.Drawing.Point(12, 68)
+            Me.butCreateEmail.Location = New System.Drawing.Point(12, 61)
             Me.butCreateEmail.Name = "butCreateEmail"
-            Me.butCreateEmail.Size = New System.Drawing.Size(356, 38)
+            Me.butCreateEmail.Size = New System.Drawing.Size(442, 38)
             Me.butCreateEmail.TabIndex = 0
             Me.butCreateEmail.Text = "Create Email"
             Me.butCreateEmail.UseVisualStyleBackColor = True
@@ -51,14 +52,23 @@
             Me.cboNetwork.FormattingEnabled = True
             Me.cboNetwork.Location = New System.Drawing.Point(15, 25)
             Me.cboNetwork.Name = "cboNetwork"
-            Me.cboNetwork.Size = New System.Drawing.Size(353, 21)
+            Me.cboNetwork.Size = New System.Drawing.Size(439, 21)
             Me.cboNetwork.TabIndex = 3
+            '
+            'lblDisplay
+            '
+            Me.lblDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+            Me.lblDisplay.Location = New System.Drawing.Point(15, 123)
+            Me.lblDisplay.Name = "lblDisplay"
+            Me.lblDisplay.Size = New System.Drawing.Size(439, 111)
+            Me.lblDisplay.TabIndex = 4
             '
             'CentreNetworkEmailForm
             '
             Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(380, 120)
+            Me.ClientSize = New System.Drawing.Size(466, 241)
+            Me.Controls.Add(Me.lblDisplay)
             Me.Controls.Add(Me.cboNetwork)
             Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.butCreateEmail)
@@ -71,5 +81,6 @@ End Sub
         Friend WithEvents butCreateEmail As System.Windows.Forms.Button
         Friend WithEvents Label1 As System.Windows.Forms.Label
         Friend WithEvents cboNetwork As System.Windows.Forms.ComboBox
+        Friend WithEvents lblDisplay As System.Windows.Forms.Label
     End Class
 End Namespace
