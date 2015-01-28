@@ -2,7 +2,8 @@
     Public Class CentreNetworkEmailForm
         Inherits Windows.Forms.Form
         Implements ICentreNetworkEmailForm
-        
+
+
         Private _presenter As Presenter.CentreNetworkEmail
 
         <Microsoft.Practices.Unity.Dependency()>
@@ -30,11 +31,16 @@
                 cboNetwork.DisplayMember = "Description"
             End Set
         End Property
-        
+
         Public ReadOnly Property Network As Model.Network.NetworkEntity Implements ICentreNetworkEmailForm.Network
             Get
                 Return cboNetwork.SelectedItem
             End Get
         End Property
+
+        Public Sub SetDisplay(value As String) Implements ICentreNetworkEmailForm.SetDisplay
+            _lblDisplay.Text = value
+        End Sub
     End Class
+
 End Namespace

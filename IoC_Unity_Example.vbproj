@@ -110,6 +110,7 @@
     <Compile Include="Helper\Email\Output\Output.vb" />
     <Compile Include="Helper\Email\Output\TextFile.vb" />
     <Compile Include="Helper\Globals.vb" />
+    <Compile Include="Helper\Resources\AnOtherResourceManager.vb" />
     <Compile Include="Helper\Resources\IResourceManager.vb" />
     <Compile Include="Helper\Resources\IocUnityExampleResourceManager.vb" />
     <Compile Include="Model\Centre\CentreEntity.vb" />

@@ -45,12 +45,13 @@
             End Set
         End Property
 
-        Public Overridable Sub Create()
-            Console.WriteLine(String.Format("To Address : {0}", _toAddress))
-            Console.WriteLine(String.Format("Cc Address : {0}", _ccAddress))
-            Console.WriteLine(String.Format("Subject : {0}", _subject))
-            Console.WriteLine(String.Format("Body : {0}", _body))
-        End Sub
+        Public Overridable Function Create() As String
+            Return String.Format("{0}{1}{2}{3}",
+                                 String.Format("To Address : {0} {1}", _toAddress, Environment.NewLine),
+                                 String.Format("Cc Address : {0} {1}", _ccAddress, Environment.NewLine),
+                                 String.Format("Subject : {0} {1}", _subject, Environment.NewLine),
+                                 String.Format("Body : {0} {1}", _body, Environment.NewLine))
+        End Function
 
     End Class
 End Namespace

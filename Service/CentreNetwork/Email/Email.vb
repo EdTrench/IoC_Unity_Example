@@ -17,7 +17,7 @@
             _output = output
         End Sub
 
-        Public MustOverride Sub Create()
+        Public MustOverride Function Create() As String
 
     End Class
 End Namespace

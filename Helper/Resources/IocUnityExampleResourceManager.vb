@@ -10,7 +10,10 @@
         End Sub
 
         Public Overrides Function GetString(name As String) As String Implements IResourceManager.GetString
-            Return MyBase.GetString(name)
+            Return String.Format("{0}{1}{2}",
+                                 "IoC Unity Example Resource -->",
+                                 Environment.NewLine,
+                                 MyBase.GetString(name))
         End Function
 
     End Class
